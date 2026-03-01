@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "InstaGhost",
+  "version": "1.0.0",
+  "description": "Smart Instagram Follower Removal Tool. Upload your Instagram JSON data directly and automate removals without copy-pasting.",
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "action": {
+    "default_title": "Open Instagram to use InstaGhost",
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.instagram.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
