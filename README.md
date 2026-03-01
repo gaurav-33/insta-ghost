@@ -1,4 +1,4 @@
-# ✨ InstaRemover Enhanced — Chrome Extension
+# 👻 InstaGhost — Chrome Extension
 
 A powerful Chrome extension to automatically remove Instagram followers in bulk — directly from your official Instagram data export, **no copy-pasting required**.
 
@@ -33,7 +33,7 @@ A powerful Chrome extension to automatically remove Instagram followers in bulk 
 
 ```
 insta_extension/
-├── icons/
+├── assets/
 │   ├── icon16.png
 │   ├── icon48.png
 │   └── icon128.png
@@ -202,6 +202,12 @@ Replace `username_to_remove_1` and `username_to_remove_2` with the actual Instag
 
 **Q: Will this get my account banned?**
 > Automating actions on Instagram always carries some risk. Use reasonable delays, don't remove thousands of followers in one session, and take breaks. The default delays are tuned to be safe for typical usage.
+
+---
+
+## 🏷️ Tags
+
+`instagram` `chrome-extension` `unfollow-bot` `instagram-automation` `follower-remover` `instagram-tools` `javascript` `browser-extension` `instagram-unfollower` `non-followers` `bulk-remove` `instagram-data-export`
 
 ---
 
